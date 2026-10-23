@@ -1,0 +1,42 @@
+    <div class="cycle" data-cycle>
+      <div class="cycle__dial">
+        <svg class="cycle__ring" viewBox="0 0 320 320" aria-hidden="true"></svg>
+        <div class="cycle__centre" aria-hidden="true"><b class="num" data-cycle-n>01</b><span data-cycle-title>Screening</span></div>
+      </div>
+      <div class="cycle__side">
+        <div class="cycle__tabs" role="tablist" aria-label="Investment process stages">
+          <button role="tab" aria-selected="true" data-step="0"><span class="cycle__tab-ico">{{icon:magnifying-glass}}</span><span class="num">01</span> Screening</button>
+          <button role="tab" aria-selected="false" data-step="1"><span class="cycle__tab-ico">{{icon:microscope}}</span><span class="num">02</span> Research</button>
+          <button role="tab" aria-selected="false" data-step="2"><span class="cycle__tab-ico">{{icon:puzzle-piece}}</span><span class="num">03</span> Construction</button>
+          <button role="tab" aria-selected="false" data-step="3"><span class="cycle__tab-ico">{{icon:shield-check}}</span><span class="num">04</span> Risk</button>
+          <button role="tab" aria-selected="false" data-step="4"><span class="cycle__tab-ico">{{icon:arrows-clockwise}}</span><span class="num">05</span> Implementation</button>
+        </div>
+        <div class="cycle__panels">
+          <article class="cycle__panel is-on" role="tabpanel" data-panel="0">
+            <h3>Screening</h3>
+            <p>Extensive quantitative and qualitative screening of securities. The team meets daily to discuss opportunities and allocate tasks.</p>
+            <ul><li>Quantitative screens</li><li>Qualitative review</li><li>Daily opportunity meetings</li></ul>
+          </article>
+          <article class="cycle__panel" role="tabpanel" data-panel="1">
+            <h3>Research</h3>
+            <p>Rigorous due diligence on management strength, balance sheet, earnings quality, industry structure and ESG, supported by detailed bottom-up valuations.</p>
+            <ul><li>Management &amp; balance sheet</li><li>Earnings quality</li><li>ESG due diligence</li></ul>
+          </article>
+          <article class="cycle__panel" role="tabpanel" data-panel="2">
+            <h3>Portfolio construction</h3>
+            <p>Recommended securities are weighed against our top-down view, portfolio characteristics and sector correlation, with monthly reviews for oversight.</p>
+            <ul><li>Top-down view</li><li>Sector correlation</li><li>Monthly reviews</li></ul>
+          </article>
+          <article class="cycle__panel" role="tabpanel" data-panel="3">
+            <h3>Risk management</h3>
+            <p>Continuous assessment of macro-economic conditions and performance, with scenario analysis that tracks changes in each client's liquidity needs.</p>
+            <ul><li>Macro monitoring</li><li>Scenario analysis</li><li>Liquidity tracking</li></ul>
+          </article>
+          <article class="cycle__panel" role="tabpanel" data-panel="4">
+            <h3>Implementation</h3>
+            <p>Asset allocation and security selection build and rebalance your portfolio, adding new investment vehicles as they become available.</p>
+            <ul><li>Asset allocation</li><li>Security selection</li><li>Ongoing rebalancing</li></ul>
+          </article>
+        </div>
+      </div>
+    </div>

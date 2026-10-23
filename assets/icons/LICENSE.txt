@@ -1,0 +1,3 @@
+Phosphor Icons (duotone), https://phosphoricons.com
+MIT License, Copyright (c) 2023 Phosphor Icons
+Files from @phosphor-icons/core@2.1.1

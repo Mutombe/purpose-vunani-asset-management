@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: purpose-vunani-asset-management
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
+    headers:
+      - path: /assets/*
+        name: Cache-Control
+        value: public, max-age=86400
