@@ -1056,7 +1056,7 @@ html.js .perf:not(.in) .perf__you { width: 100%; }
 .finder__search { display: flex; align-items: center; gap: 10px; height: 50px; padding: 0 16px; border-radius: 12px; background: var(--bg); border: 1px solid transparent; transition: border-color .25s, background .25s; }
 .finder__search:focus-within { border-color: var(--teal); background: #fff; }
 .finder__search .ico { width: 20px; height: 20px; color: var(--teal); }
-.finder__search input { flex: 1; min-width: 0; height: 100%; border: 0; outline: 0; background: transparent; font: inherit; font-size: .95rem; color: var(--text); }
+.finder__search input { flex: 1; min-width: 0; height: 100%; border: 0; outline: 0; background: transparent; font: inherit; font-size: 1rem; color: var(--text); }
 .finder__chips { display: flex; flex-wrap: wrap; gap: 6px; }
 .finder__chips button { padding: 9px 14px; border-radius: 30px; border: 1px solid var(--line); background: #fff; font-family: var(--label); font-size: .7rem; font-weight: 700; letter-spacing: .04em; color: var(--text); transition: background .25s, color .25s, border-color .25s; }
 .finder__chips button:hover { border-color: var(--teal); }
@@ -1094,7 +1094,7 @@ a.reach__card:hover .reach__ico { background: var(--gold); color: var(--ink); tr
 .form { display: grid; gap: 16px; padding: clamp(22px, 3vw, 36px); border-radius: var(--radius-lg); background: var(--bg); border: 1px solid var(--line); }
 .form__row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 .form label, .form legend { display: grid; gap: 6px; padding: 0; font-family: var(--label); font-size: .68rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
-.form input:not([type="checkbox"]), .form textarea { width: 100%; padding: 13px 14px; border-radius: 12px; border: 1px solid var(--line); background: #fff; font: inherit; font-family: var(--body); font-size: .95rem; letter-spacing: 0; text-transform: none; color: var(--text); resize: vertical; transition: border-color .25s, box-shadow .25s; }
+.form input:not([type="checkbox"]), .form textarea { width: 100%; padding: 13px 14px; border-radius: 12px; border: 1px solid var(--line); background: #fff; font: inherit; font-family: var(--body); font-size: 1rem; letter-spacing: 0; text-transform: none; color: var(--text); resize: vertical; transition: border-color .25s, box-shadow .25s; }
 .form input:not([type="checkbox"]):focus, .form textarea:focus { outline: 0; border-color: var(--teal); box-shadow: 0 0 0 4px rgba(0, 138, 146, .12); }
 .form [aria-invalid="true"] { border-color: #B4553F !important; }
 .form__chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; border: 0; }

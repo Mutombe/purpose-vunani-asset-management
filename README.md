@@ -14,6 +14,7 @@ In the sources, `{{nav}}` etc. insert a partial and `{{icon:name}}` (or `{{icon:
 - `tools/prepare_images.py <client folder> <unsplash folder>` rebuilds `assets/img` and the brand files (light logo, monogram) from the sources.
 - `tools/focus.py` holds each photo's subject box (`data-focus`). `script.js` uses it to crop every photo on the visitor's screen so faces are never cut off or covered by text or cards.
 - `tools/patterns.py` writes the guilloche and V-chevron patterns.
+- `tools/audit.py` is the pre-launch checklist: console errors, failed requests, overflow at 1280 and 390, missing files and CSS urls, hero fit at six screen sizes, text that wraps on phones or runs past four lines, no-JavaScript rendering, the mobile menu and dash characters.
 - `tools/qa.py` checks every page at 1440, 1280, 820 and 390 px plus six hero sizes: photo framing, broken or stretched images, sideways scrolling and script errors (needs Playwright; serves the site itself if nothing is on port 8091).
 
 ## Before launch
